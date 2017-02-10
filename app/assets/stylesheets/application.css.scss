@@ -59,13 +59,16 @@ h1, h2, h3 {
 
 .navbar-default .navbar-toggle .icon-bar {
     background: White;
-}
-
-.navbar-default .navbar-toggle {
-    border: 2px solid white ;
+    &:hover &:focus {
+        border: 2px solid white;
+    }
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #4ECDC4;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-top: 0px;
 }
